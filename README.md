@@ -1,30 +1,48 @@
 # Mahdi Isse – Portfolio
 
-Persoonlijke portfolio-website gebouwd met Next.js (App Router), React, TypeScript, Tailwind CSS en shadcn/ui. Laat projecten, skills en ervaring zien.
+Moderne, snelle en toegankelijke portfolio‑website gebouwd met Next.js (App Router), React, TypeScript, Tailwind CSS en shadcn/ui. Toont mijn projecten, skills, ervaring en contactgegevens.
 
 Live demo: https://bymahdi.nl
 
-## Stack
+## Tech Stack
 
 - Next.js 15, React 19, TypeScript
-- Tailwind CSS, shadcn/ui, lucide-react
-- Deploy: Vercel
+- Tailwind CSS, shadcn/ui, Lucide Icons
+- Deployment: Vercel
 
-## Features
+## Functionaliteiten
 
-- Smooth anchor-navigatie met vaste navbar
-- Mobiel menu met toegankelijke toggle
+- Vaste, transparante navbar met smooth anchor‑navigatie
+- Toegankelijk mobiel menu
 - Secties: Intro, Skills, Projects, Experience, Contact
+- Subtiele animaties en shimmer‑badges
+- Responsive ontwerp met focus op performance
 
 ## Snel starten
 
+1. Repo clonen
+2. Dependencies installeren
+3. Development server starten
+
 ```bash
-npm install
-npm run dev
-# of
+# npm
+npm install && npm run dev
+
+# pnpm
 pnpm install && pnpm dev
-# of
+
+# yarn
 yarn && yarn dev
 ```
 
 Open http://localhost:3000 in je browser.
+
+## Scripts
+
+- dev: start de development server
+- build: bouwt de app voor productie
+- start: start de productie‑build lokaal
+
+## Licentie
+
+Dit project is bedoeld als portfolio. Gebruik als referentie of inspiratie is toegestaan met vermelding.
