@@ -37,7 +37,7 @@ export function IntroSection() {
           ambitieuze developer waarde toe te voegen aan een team.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 mt-4">
+        <div className="flex flex-col lg:flex-row gap-4 mt-4">
           <Button size="lg" asChild className="group">
             <Link href="#contact">
               <MessageCircle className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />

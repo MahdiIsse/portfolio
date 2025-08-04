@@ -1,15 +1,6 @@
 "use client";
 
-import {
-  Lightbulb,
-  BrainCircuit,
-  Scaling,
-  Users,
-  DatabaseZap,
-  Accessibility,
-  Cable,
-  TestTube2,
-} from "lucide-react";
+import { Lightbulb, Accessibility, Cable, TestTube2 } from "lucide-react";
 import { Badge } from "../ui/badge";
 import { IoLogoGithub } from "react-icons/io";
 import {
@@ -32,65 +23,13 @@ export function SkillSection() {
 
   const skillCategories = [
     {
-      category: "Core Competencies",
-      accent: "from-amber-500 to-orange-600",
-      bgGradient: "bg-gradient-to-r from-amber-500/10 to-orange-600/10",
-      borderColor: "border-amber-500/20",
-      skills: [
-        {
-          name: "Product-Minded Development",
-          icon: (
-            <BrainCircuit
-              className="text-amber-600 dark:text-amber-400"
-              size={iconSize}
-              width={iconSize}
-              height={iconSize}
-            />
-          ),
-        },
-        {
-          name: "System Architecture",
-          icon: (
-            <Scaling
-              className="text-orange-600 dark:text-orange-400"
-              size={iconSize}
-              width={iconSize}
-              height={iconSize}
-            />
-          ),
-        },
-        {
-          name: "Agile Methodologies",
-          icon: (
-            <Users
-              className="text-amber-700 dark:text-amber-300"
-              size={iconSize}
-              width={iconSize}
-              height={iconSize}
-            />
-          ),
-        },
-        {
-          name: "Data-Driven Decisions",
-          icon: (
-            <DatabaseZap
-              className="text-orange-700 dark:text-orange-300"
-              size={iconSize}
-              width={iconSize}
-              height={iconSize}
-            />
-          ),
-        },
-      ],
-    },
-    {
       category: "Frontend Core",
       accent: "from-blue-500 to-indigo-600",
       bgGradient: "bg-gradient-to-r from-blue-500/10 to-indigo-600/10",
       borderColor: "border-blue-500/20",
       skills: [
         {
-          name: "JavaScript (ESNext)",
+          name: "JavaScript",
           icon: <SiJavascript color="#F7DF1E" size={iconSize} />,
         },
         {
