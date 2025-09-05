@@ -27,8 +27,8 @@ export function ProjectSection() {
     "TypeScript",
     "TanStack Query",
     "Tailwind CSS",
-    "Supabase",
-    "PostgreSQL",
+    "ASP.NET Core 8",
+    "SQL Server",
     "@dnd-kit",
   ];
 
@@ -57,14 +57,14 @@ export function ProjectSection() {
     {
       title: "End-to-End Type Safety",
       description:
-        "Van de frontend (met Zod en React Hook Form) tot aan de PostgreSQL database (met auto-gegenereerde types van Supabase) is de hele applicatie type-veilig. Dit minimaliseert runtime errors en verhoogt de betrouwbaarheid van de code aanzienlijk.",
+        "Van de frontend (met Zod en React Hook Form) tot aan de C# backend met strongly-typed DTOs is de hele applicatie type-veilig. Dit minimaliseert runtime errors en verhoogt de betrouwbaarheid van de code aanzienlijk.",
       icon: Shield,
       gradient: "from-orange-500 to-red-500",
     },
     {
-      title: "Robuuste Backend met Server Actions",
+      title: "Robuuste .NET Backend API",
       description:
-        "Alle data-mutaties worden afgehandeld door Next.js Server Actions. Dit zorgt voor een veilige en efficiënte communicatie met de database, waarbij server-state management (via TanStack Query) de UI automatisch en intelligent bijwerkt.",
+        "Alle data-mutaties worden afgehandeld door een zelfgebouwde ASP.NET Core API met Clean Architecture. Dit zorgt voor een veilige en efficiënte communicatie met de database, waarbij client-state management (via TanStack Query) de UI automatisch en intelligent bijwerkt.",
       icon: Database,
       gradient: "from-indigo-500 to-purple-500",
     },
@@ -101,7 +101,7 @@ export function ProjectSection() {
                 Vanuit mijn ervaring als ondernemer weet ik hoe cruciaal
                 efficiënt projectmanagement is. Dit domein was de perfecte arena
                 om mijn technische vaardigheden toe te passen op een complex en
-                realistisch business probleem. Het resultaat is een applicatie
+                realistisch business probleem. Het resultaat is een volledige full-stack applicatie
                 die van de grond af is opgebouwd, met een focus op een naadloze
                 gebruikerservaring en een schaalbare architectuur.
               </p>
@@ -180,13 +180,13 @@ export function ProjectSection() {
             <div className="flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between pt-4 border-t border-border/30">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Calendar className="h-4 w-4" />
-                <span>Voltooid in Juli 2025</span>
+                <span>Voltooid in September 2025</span>
               </div>
 
               <div className="flex gap-3">
                 <Button variant="outline" size="sm" className="group" asChild>
                   <Link
-                    href="https://github.com/MahdiIsse/project-management"
+                    href="https://github.com/MahdiIsse/project-management-v2"
                     target="_blank"
                   >
                     <Github className="w-4 h-4 group-hover:scale-110 transition-transform" />

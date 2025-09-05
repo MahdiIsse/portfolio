@@ -30,9 +30,9 @@ export function IntroSection() {
           developer.
         </p>
         <p className="text-base leading-relaxed max-w-xl">
-          De afgelopen maanden heb ik me volledig toegelegd op het bouwen van
-          moderne webapplicaties met{" "}
-          <strong>React, Next.js en TypeScript</strong>. Ik combineer mijn
+          
+          De afgelopen maanden heb ik me volledig toegelegd op full-stack development, waarbij ik moderne webapplicaties bouw met <strong>React, Next.js en TypeScript, gekoppeld aan zelfgebouwde C# .NET backends. </strong>
+           Ik combineer mijn
           ondernemerservaring met technische diepgang en ben klaar om als
           ambitieuze developer waarde toe te voegen aan een team.
         </p>

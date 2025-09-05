@@ -6,9 +6,10 @@ Live demo: https://bymahdi.nl
 
 ## Tech Stack
 
-- Next.js 15, React 19, TypeScript
-- Tailwind CSS, shadcn/ui, Lucide Icons
-- Deployment: Vercel
+- **Frontend:** Next.js 15, React 19, TypeScript
+- **UI:** Tailwind CSS, shadcn/ui
+- **Backend:** C#, ASP.NET Core 8, Entity Framework Core, SQL Server
+- **Deployment:** Vercel
 
 ## Functionaliteiten
 

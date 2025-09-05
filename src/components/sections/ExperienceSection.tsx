@@ -29,75 +29,75 @@ export function ExperienceSection() {
         defaultValue="item-1"
         className="w-full flex flex-col gap-4"
       >
-        <AccordionItem
-          value="item-1"
-          className="border border-border/30 rounded-lg overflow-hidden hover:border-border/50 transition-all duration-300 hover:shadow-md"
-        >
-          <AccordionTrigger className="px-6 py-4 hover:bg-accent/30 [&[data-state=open]]:bg-gradient-to-r [&[data-state=open]]:from-orange-500/15 [&[data-state=open]]:to-red-500/15 [&[data-state=open]]:text-orange-700 [&[data-state=open]]:dark:text-orange-300 transition-colors">
-            <div className="flex w-full justify-between items-center">
-              <div className="text-left">
-                <h3 className="text-lg font-bold">
-                  Volledige Focus op Software Development
-                </h3>
-                <p className="text-muted-foreground">
-                  Intensieve Full-Stack Traject
-                </p>
-              </div>
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Calendar className="h-4 w-4" />
-                <span>Apr 2025 - Aug 2025</span>
-              </div>
-            </div>
-          </AccordionTrigger>
-          <AccordionContent className="px-6 py-2 pb-6 bg-accent/10 leading-relaxed">
-            <p className="mb-4">
-              Na mijn ervaringen bij AutomationLabs was de keuze helder: mijn
-              toekomst ligt in het bouwen van software. Ik heb mijn
-              ondernemersactiviteiten bewust beëindigd om me met 100% focus en
-              toewijding op deze nieuwe carrière te storten.
-            </p>
-            <p className="mb-4">
-              De afgelopen maanden heb ik mijzelf ondergedompeld in de wereld
-              van full-stack development. Niet via een bootcamp, maar via een
-              bewuste keuze voor diepgaande zelfstudie. Ik wilde niet alleen
-              weten <em>hoe</em> iets werkt, maar vooral <em>waarom</em> het zo
-              werkt, van de architectuur van een applicatie tot de kleinste
-              details in de code.
-            </p>
-            <p className="mb-4">
-              Mijn filosofie is{" "}
-              <strong>&apos;learning by building&apos;</strong>. Elk nieuw
-              concept heb ik direct toegepast in mijn Project Management
-              Dashboard, wat resulteerde in een robuuste, full-stack applicatie.
-            </p>
-            <strong className="text-foreground">
-              Technologieën waar ik mee werk:
-            </strong>
-            <ul className="list-disc list-inside my-3 space-y-1 text-muted-foreground">
-              <li>
-                <strong className="text-foreground">Frontend:</strong>{" "}
-                JavaScript (ES6+), TypeScript, React, Next.js, Tailwind CSS
-              </li>
-              <li>
-                <strong className="text-foreground">State Management:</strong>{" "}
-                Zustand, TanStack Query, Redux
-              </li>
-              <li>
-                <strong className="text-foreground">Backend & Database:</strong>{" "}
-                Supabase, PostgreSQL
-              </li>
-              <li>
-                <strong className="text-foreground">Tools:</strong> Git, VS
-                Code, Figma
-              </li>
-            </ul>
-            <p>
-              Deze periode van intense focus heeft mijn passie bevestigd en me
-              klaargestoomd voor een technische rol waarin ik direct waarde kan
-              toevoegen.
-            </p>
-          </AccordionContent>
-        </AccordionItem>
+       <AccordionItem
+  value="item-1"
+  className="border border-border/30 rounded-lg overflow-hidden hover:border-border/50 transition-all duration-300 hover:shadow-md"
+>
+  <AccordionTrigger className="px-6 py-4 hover:bg-accent/30 [&[data-state=open]]:bg-gradient-to-r [&[data-state=open]]:from-orange-500/15 [&[data-state=open]]:to-red-500/15 [&[data-state=open]]:text-orange-700 [&[data-state=open]]:dark:text-orange-300 transition-colors">
+    <div className="flex w-full justify-between items-center">
+      <div className="text-left">
+        <h3 className="text-lg font-bold">
+          Volledige Focus op Software Development
+        </h3>
+        <p className="text-muted-foreground">
+          Intensieve Full-Stack Traject
+        </p>
+      </div>
+      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+        <Calendar className="h-4 w-4" />
+        <span>Apr 2025 - Sep 2025</span>
+      </div>
+    </div>
+  </AccordionTrigger>
+  <AccordionContent className="px-6 py-2 pb-6 bg-accent/10 leading-relaxed">
+    <p className="mb-4">
+      Na mijn ervaringen bij AutomationLabs was de keuze helder: mijn
+      toekomst ligt in het bouwen van software. Ik heb mijn
+      ondernemersactiviteiten bewust beëindigd om me met 100% focus en
+      toewijding op deze nieuwe carrière te storten.
+    </p>
+    <p className="mb-4">
+      De afgelopen maanden heb ik mijzelf ondergedompeld in de wereld
+      van full-stack development. Niet via een bootcamp, maar via een
+      bewuste keuze voor diepgaande zelfstudie. Ik wilde niet alleen
+      weten <em>hoe</em> iets werkt, maar vooral <em>waarom</em> het zo
+      werkt, van de architectuur van een applicatie tot de kleinste
+      details in de code.
+    </p>
+    <p className="mb-4">
+      Mijn filosofie is{" "}
+      <strong>&apos;learning by building&apos;</strong>. Elk nieuw
+      concept heb ik direct toegepast in mijn Project Management
+      Dashboard, wat resulteerde in een robuuste, full-stack applicatie.
+    </p>
+    <strong className="text-foreground">
+      Technologieën waar ik mee werk:
+    </strong>
+    <ul className="list-disc list-inside my-3 space-y-1 text-muted-foreground">
+      <li>
+        <strong className="text-foreground">Frontend:</strong>{" "}
+        JavaScript (ES6+), TypeScript, React, Next.js, Tailwind CSS
+      </li>
+      <li>
+        <strong className="text-foreground">State Management:</strong>{" "}
+        Zustand, TanStack Query, Redux
+      </li>
+      <li>
+        <strong className="text-foreground">Backend & Database:</strong>{" "}
+        C# / ASP.NET Core 8, Entity Framework Core, SQL Server
+      </li>
+      <li>
+        <strong className="text-foreground">Tools:</strong> Git, VS
+        Code, Figma
+      </li>
+    </ul>
+    <p>
+      Deze periode van intense focus heeft mijn passie bevestigd en me
+      klaargestoomd voor een technische rol waarin ik direct waarde kan
+      toevoegen.
+    </p>
+  </AccordionContent>
+</AccordionItem>
 
         <AccordionItem
           value="item-2"

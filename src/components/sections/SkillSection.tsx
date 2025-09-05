@@ -1,19 +1,20 @@
 "use client";
 
-import { Lightbulb, Accessibility, Cable, TestTube2 } from "lucide-react";
+import { Lightbulb, Accessibility, TestTube2, Server } from "lucide-react";
 import { Badge } from "../ui/badge";
 import { IoLogoGithub } from "react-icons/io";
 import {
   SiTypescript,
   SiNextdotjs,
   SiTailwindcss,
-  SiPostgresql,
-  SiSupabase,
   SiReactquery,
   SiZod,
   SiRedux,
   SiJavascript,
+  SiDotnet,
 } from "react-icons/si";
+import { DiMsqlServer } from "react-icons/di";
+import { TbBrandCSharp } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { GiBearFace } from "react-icons/gi";
 import Image from "next/image";
@@ -43,6 +44,49 @@ export function SkillSection() {
         {
           name: "Next.js 15",
           icon: <SiNextdotjs color="#FFFFFF" size={iconSize} />,
+        },
+        {
+          name: "TanStack Query",
+          icon: <SiReactquery color="#FF4154" size={iconSize} />,
+        },
+        {
+          name: "React Hook Form",
+          icon: <FaReact color="#EC5990" size={iconSize} />,
+        },
+      ],
+    },
+    {
+      category: "Backend Development",
+      accent: "from-orange-500 to-red-600",
+      bgGradient: "bg-gradient-to-r from-orange-500/10 to-red-600/10",
+      borderColor: "border-orange-500/20",
+      skills: [
+        {
+          name: "C#",
+          icon: <TbBrandCSharp color="#239120" size={iconSize} />,
+        },
+        {
+          name: "ASP.NET Core 8",
+          icon: <SiDotnet color="#512BD4" size={iconSize} />,
+        },
+        {
+          name: "Entity Framework Core",
+          icon: <SiDotnet color="#512BD4" size={iconSize} />,
+        },
+        {
+          name: "SQL Server",
+          icon: <DiMsqlServer color="#CC2927" size={iconSize} />,
+        },
+        {
+          name: "Clean Architecture",
+          icon: (
+            <Server
+              className="text-orange-600 dark:text-orange-400"
+              size={iconSize}
+              width={iconSize}
+              height={iconSize}
+            />
+          ),
         },
       ],
     },
@@ -90,37 +134,6 @@ export function SkillSection() {
       ],
     },
     {
-      category: "Backend & Data",
-      accent: "from-emerald-500 to-teal-600",
-      bgGradient: "bg-gradient-to-r from-emerald-500/10 to-teal-600/10",
-      borderColor: "border-emerald-500/20",
-      skills: [
-        {
-          name: "Supabase",
-          icon: <SiSupabase color="#3ecf8e" size={iconSize} />,
-        },
-        {
-          name: "PostgreSQL",
-          icon: <SiPostgresql color="#336791" size={iconSize} />,
-        },
-        {
-          name: "TanStack Query",
-          icon: <SiReactquery color="#FF4154" size={iconSize} />,
-        },
-        {
-          name: "REST APIs",
-          icon: (
-            <Cable
-              className="text-teal-600 dark:text-emerald-400"
-              size={iconSize}
-              width={iconSize}
-              height={iconSize}
-            />
-          ),
-        },
-      ],
-    },
-    {
       category: "Tooling & Validation",
       accent: "from-slate-500 to-gray-600",
       bgGradient: "bg-gradient-to-r from-slate-500/10 to-gray-600/10",
@@ -131,15 +144,22 @@ export function SkillSection() {
           icon: <IoLogoGithub color="#FFFFFF" size={iconSize} />,
         },
         {
-          name: "React Hook Form",
-          icon: <FaReact color="#EC5990" size={iconSize} />,
-        },
-        {
           name: "Zod",
           icon: <SiZod color="#3E63DD" size={iconSize} />,
         },
         {
-          name: "Jest",
+          name: "xUnit Testing",
+          icon: (
+            <TestTube2
+              className="text-gray-600 dark:text-slate-300"
+              size={iconSize}
+              width={iconSize}
+              height={iconSize}
+            />
+          ),
+        },
+        {
+          name: "Integration Testing",
           icon: (
             <TestTube2
               className="text-gray-600 dark:text-slate-300"
